@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'pollapp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'firstdb',
+        'USER': 'admin',
+        'PASSWORD': 'Thigelis2',
+        'HOST': 'database-1.cpsuh4j7yiuw.eu-central-1.rds.amazonaws.com',
+        'PORT': '3306'
     }
 }
 
