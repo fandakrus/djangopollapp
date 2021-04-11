@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'firstdb',
         'USER': 'admin',
-        'PASSWORD': 'Thigelis2',
+        'PASSWORD': '*',
         'HOST': 'database-1.cpsuh4j7yiuw.eu-central-1.rds.amazonaws.com',
         'PORT': '3306'
     }
