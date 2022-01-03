@@ -1,0 +1,11 @@
+{% extends 'Basic/base.html' %}
+
+{% block content %}
+<div class='text-center'>
+    <h2>Manuální zalévaní</h2>
+    <form action="{% url 'trigger' %}">
+    {% csrf_token %}
+        <button type='submit' name='triggerbtn' class='btn btn-outline-primary btn-lg'>Zalít</button>
+    </form>
+</div>
+{% endblock  %}
